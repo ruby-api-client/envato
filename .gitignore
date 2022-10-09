@@ -36,3 +36,9 @@ build/
 ## macos
 .DS_Store
 dev
+
+# TODO: remove from ignore list
+api_endpoints.json
+api.sh
+
+fixtures
