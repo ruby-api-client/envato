@@ -2,9 +2,13 @@
 
 require "bundler/setup"
 require "simplecov"
+require "simplecov-lcov"
 require "envato"
 require "webmock/rspec"
 require "vcr"
+
+SimpleCov::Formatter::LcovFormatter.config.report_with_single_file = true
+SimpleCov.formatter = SimpleCov::Formatter::LcovFormatter
 
 SimpleCov.start do
   add_filter "spec/"
