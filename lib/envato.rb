@@ -17,12 +17,23 @@ module Envato
   autoload :MarketsResource, "envato/resources/markets"
   autoload :SearchResource, "envato/resources/search"
   autoload :BookmarksResource, "envato/resources/bookmarks"
-  autoload :Item, "envato/resources/item"
+  autoload :ItemResource, "envato/resources/item"
 
   autoload :User, "envato/objects/types"
+  autoload :UserAccount, "envato/objects/types"
+  autoload :UserStatement, "envato/objects/types"
   autoload :UserList, "envato/objects/types"
   autoload :UserStatement, "envato/objects/types"
   autoload :UserCollection, "envato/objects/types"
   autoload :UserBookmark, "envato/objects/types"
+
+  autoload :UsersTotal, "envato/objects/types"
+
   autoload :SearchMatch, "envato/objects/types"
+
+  autoload :CollectionItem, "envato/objects/types"
+
+  autoload :Item, "envato/objects/types"
+  autoload :ItemPrice, "envato/objects/types"
+  autoload :ItemVersion, "envato/objects/types"
 end

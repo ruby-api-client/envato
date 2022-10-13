@@ -8,12 +8,18 @@ module Envato
     end
 
     def download(item_id:, purchase_code:, shorten_url: true)
-      Object.new get("v3/market/buyer/download?item_id=#{item_id}&purchase_code=#{purchase_code}&shorten_url=#{shorten_url}").body
+      Object.new get("v3/market/buyer/download \
+                        ?item_id=#{item_id} \
+                        &purchase_code=#{purchase_code} \
+                        &shorten_url=#{shorten_url}".gsub(/\s+/, "")).body
     end
 
     # TODO: filter_by: wordpress-plugins | wordpress-themes
     def list_purchases(filter_by: "wordpress-themes", page: 1, details: false)
-      resp = get("v3/market/buyer/list-purchases?filter_by=#{filter_by}&page=#{page}&details=#{details}")
+      resp = get("v3/market/buyer/list-purchases \
+                    ?filter_by=#{filter_by} \
+                    &page=#{page} \
+                    &details=#{details}".gsub(/\s+/, ""))
       Collection.from_response(resp, key: "results", type: Item)
     end
 
@@ -27,11 +33,11 @@ module Envato
     end
 
     def version(id:)
-      Object.new get("v3/market/catalog/item-version?id=#{id}").body
+      ItemVersion.new get("v3/market/catalog/item-version?id=#{id}").body
     end
 
     def info(id:)
-      Item.new get("v3/market/catalog/item").body
+      Item.new get("v3/market/catalog/item?id=#{id}").body
     end
   end
 end

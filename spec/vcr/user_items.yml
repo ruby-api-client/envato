@@ -1,0 +1,86 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.envato.com/v1/market/user-items-by-site:collis.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 12 Oct 2022 08:17:30 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '94'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - 687a705b-9e12-4a91-822b-b6352b4a7dec
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime:
+      - '0.015217'
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      X-Download-Options:
+      - noopen
+      X-Request-Id:
+      - 758e66441c470058-DME
+      X-Amz-Apigw-Id:
+      - Z4e0LEJtoAMF9Mw=
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - nginx
+      Expires:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"11c33e3f33b7750f27ac529b972aca2f"
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Wed, 12 Oct 2022 08:17:30 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 04ee3bd8d240238266b689a79ae47416.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - HEL51-P2
+      X-Amz-Cf-Id:
+      - 22h3Hh6wpGCV3bc84dagYh6HKkQnY7wJXkYmIjvkm3epgvlMMMCnoA==
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 758e66441c470058-DME
+    body:
+      encoding: ASCII-8BIT
+      string: '{"user-items-by-site":[{"site":"ThemeForest","items":"1"},{"site":"Tuts+
+        Marketplace","items":"2"}]}'
+  recorded_at: Wed, 12 Oct 2022 08:17:30 GMT
+recorded_with: VCR 6.1.0

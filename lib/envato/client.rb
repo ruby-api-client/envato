@@ -48,8 +48,6 @@ module Envato
 
         conn.response :json, content_type: "application/json"
 
-        # TODO: remove
-        # conn.response :logger, nil, { headers: true, bodies: true }
         conn.adapter adapter, @stubs
       end
     end

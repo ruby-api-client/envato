@@ -1,0 +1,87 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.envato.com/v3/market/buyer/purchases
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Oct 2022 19:12:50 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '87'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - 726625b4-4daa-4d71-b826-9fb0bef474dd
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime:
+      - '0.012576'
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      X-Download-Options:
+      - noopen
+      X-Request-Id:
+      - 7589e8d8ae619d43-DME
+      X-Amz-Apigw-Id:
+      - Z2r33GT7oAMFovQ=
+      Vary:
+      - Accept
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - nginx
+      Expires:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"095318e8321211fb79df156ff7353fd6"
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Tue, 11 Oct 2022 19:12:50 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 909148671fe00df5415904e5ad7e738c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - ARN1-C1
+      X-Amz-Cf-Id:
+      - UkIieUqb8HnzBUavm5tFeS4g-d2D1kS4W9NjLT2e5v68VBV_KV1HQQ==
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7589e8d8ae619d43-DME
+    body:
+      encoding: ASCII-8BIT
+      string: '{"buyer":{"id":1234567,"username":"collis"},"author":{"id":1234567,"username":"collis"},"purchases":[]}'
+  recorded_at: Tue, 11 Oct 2022 19:12:50 GMT
+recorded_with: VCR 6.1.0

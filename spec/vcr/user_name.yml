@@ -1,0 +1,85 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.envato.com/v1/market/private/user/username.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Oct 2022 15:59:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '44'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - 5f60faf1-a4f1-415b-9c44-fc59885982b3
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime:
+      - '0.013283'
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      X-Download-Options:
+      - noopen
+      X-Request-Id:
+      - 7588cd87fb519d58-DME
+      X-Amz-Apigw-Id:
+      - Z2PipFMEoAMF41Q=
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - nginx
+      Expires:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"5adabf21f993f72d22363eaf333ded8b"
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Tue, 11 Oct 2022 15:59:25 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 e10153740ff95eb4d0c9f3172baeb43e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - AMS1-C1
+      X-Amz-Cf-Id:
+      - J9hvsSS7vPtSurePnPdKGDf6TFFucAO923k5CFklrCrX5zxm72U7SQ==
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7588cd87fb519d58-DME
+    body:
+      encoding: ASCII-8BIT
+      string: '{"username":"collis"}'
+  recorded_at: Tue, 11 Oct 2022 15:59:21 GMT
+recorded_with: VCR 6.1.0

@@ -1,0 +1,93 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.envato.com/v1/market/features:themeforest.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Oct 2022 22:09:24 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '741'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - 9abb1f7b-5995-47e8-9624-9bde9e319605
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime:
+      - '0.079989'
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      X-Download-Options:
+      - noopen
+      X-Request-Id:
+      - 758aeb7f4bef9d67-DME
+      X-Amz-Apigw-Id:
+      - Z3FvQGgxoAMFmfQ=
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - nginx
+      Expires:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"4275091031298eed3fcb9c6acbd2ce5c"
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Tue, 11 Oct 2022 22:09:24 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 9c3701a40f5e4766165113d719972734.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - ARN1-C1
+      X-Amz-Cf-Id:
+      - 6v0gIdOLNk6V-GvN-NrpxyJL5zCIH6gIZ-mFSvoagdKziWALMYMJeA==
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 758aeb7f4bef9d67-DME
+    body:
+      encoding: ASCII-8BIT
+      string: '{"features":{"featured_file":{"id":"37847929","item":"Techwind - Tailwind
+        CSS Multipurpose Landing Page Template","url":"https://themeforest.net/item/techwind-tailwind-css-multipurpose-landing-template/37847929","user":"ShreeThemes","thumbnail":"https://s3.envato.com/files/409146984/thumb-80.png","sales":"434","rating":"5.0","rating_decimal":"5.00","cost":"15.00","uploaded_on":"Tue
+        May 17 23:51:20 +1000 2022","last_update":"Wed Oct 05 00:29:02 +1100 2022","tags":"agency,
+        application, business, clean, creative, cryptocurrency, it solutions, modern,
+        multipurpose, nft marketplace, portfolio, saas, software, tailwind css","category":"site-templates/technology","live_preview_url":"https://s3.envato.com/files/409146985/01_techwind.__large_preview.png"},"featured_author":{"id":"9426303","user":"ShreeThemes","url":"https://themeforest.net/user/ShreeThemes","thumbnail":"https://s3.envato.com/files/401716372/shree-80.png"},"free_file":{"id":"29496827","item":"Quarty
+        - Architecture & Interior Design","url":"https://themeforest.net/item/quarty-architecture-interior-design/29496827","user":"MillerDigitalDesign","thumbnail":"https://s3.envato.com/files/315918398/thumbnail.jpg","sales":"133","rating":"5.0","rating_decimal":"5.00","cost":"18.00","uploaded_on":"Thu
+        Nov 26 07:33:44 +1100 2020","last_update":"Thu Mar 04 06:17:22 +1100 2021","tags":"agency,
+        architect, architecture, building, creative, decor, designer, exterior design,
+        furniture design, interior, interior design, landscape design, modern, portfolio","category":"site-templates/creative","live_preview_url":"https://s3.envato.com/files/315918399/01_cover.__large_preview.jpg"}}}'
+  recorded_at: Tue, 11 Oct 2022 22:09:24 GMT
+recorded_with: VCR 6.1.0

@@ -25,7 +25,10 @@ module Envato
     # TODO: add to CollectionResource
     # TODO: API error: "reason": "not-found"
     def collection_create(name:, site:, description:, is_public: false)
-      Object.new post("v3/market/user/collection_create?name=#{name}&site=#{site}&public=#{is_public}&description=#{description}").body
+      Object.new post("v3/market/user/collection_create \
+                        ?name=#{name}&site=#{site} \
+                        &public=#{is_public} \
+                        &description=#{description}".gsub(/\s+/, "")).body
     end
   end
 end

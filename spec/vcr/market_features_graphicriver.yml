@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.envato.com/v1/market/features:graphicriver.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Oct 2022 22:09:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '791'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - 512227b9-dcde-475c-8119-4266a4e19b29
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime:
+      - '0.089612'
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      X-Download-Options:
+      - noopen
+      X-Request-Id:
+      - 758aeb83bdf5165a-DME
+      X-Amz-Apigw-Id:
+      - Z3FvXGelIAMFTiA=
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - nginx
+      Expires:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"59505988288f2af9b1c63a3b373498c2"
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Tue, 11 Oct 2022 22:09:25 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 d945a5fbc073d46145c31f513978802c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - ARN1-C1
+      X-Amz-Cf-Id:
+      - cYsS-LWyyvqrH5wYpfOFtHldoec4sVI7ZwkGeHW9G2HuEav9NIJeaw==
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 758aeb83bdf5165a-DME
+    body:
+      encoding: ASCII-8BIT
+      string: '{"features":{"featured_file":{"id":"39315832","item":"Illustration
+        of Skull","url":"https://graphicriver.net/item/illustration-of-skull/39315832","user":"Amillustrated","thumbnail":"https://s3.envato.com/files/403351832/Thumbnail.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"6.00","uploaded_on":"Tue
+        Aug 30 00:10:54 +1000 2022","last_update":"Tue Aug 30 00:10:54 +1000 2022","tags":"art,
+        black, bone, cartoon, characters, danger, dead, decoration, decorative, evil,
+        fear, grunge, halloween, head, horror, human, illustration, pirate, sign,
+        skeleton, skull, skull bundle, skull creation kit, skull pack, skull tattoo,
+        symbol, t-shirt design, tattoo, vector, vintage","category":"vectors","live_preview_url":"https://s3.envato.com/files/403351831/Preview.jpg"},"featured_author":{"id":"13532887","user":"graphicpages","url":"https://graphicriver.net/user/graphicpages","thumbnail":"https://s3.envato.com/files/342776022/logo%20gp.jpg"},"free_file":{"id":"21364961","item":"Creepy
+        Photoshop Action","url":"https://graphicriver.net/item/creepy-photoshop-action/21364961","user":"UnicDesign","thumbnail":"https://s3.envato.com/files/259734683/Thumbnail.jpg","sales":"62","rating":"0.0","rating_decimal":"0.00","cost":"9.00","uploaded_on":"Thu
+        Feb 08 02:04:42 +1100 2018","last_update":"Fri May 15 22:18:43 +1000 2020","tags":"actions,
+        advanced, chipped, cinematic, cracked, cracks, creepy, dark, effects, evil,
+        fear, frightnening, grunge, halloween, horror, photo effects, photo manipulation,
+        photography, photoshop, professional, scary, splatter, spooky, template, terrifying,
+        text, texture, tutorial, zombie","category":"add-ons/photoshop/actions/photo-effects","live_preview_url":"https://s3.envato.com/files/259734682/Preview.jpg"}}}'
+  recorded_at: Tue, 11 Oct 2022 22:09:25 GMT
+recorded_with: VCR 6.1.0

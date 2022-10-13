@@ -1,0 +1,111 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.envato.com/v3/market/user/statement
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 12 Oct 2022 08:17:30 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1085'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - cb173e81-1a53-4c7b-93b2-5bb037dd10a9
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime:
+      - '0.035192'
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      X-Download-Options:
+      - noopen
+      X-Request-Id:
+      - 758e663fcf9d00b0-DME
+      X-Amz-Apigw-Id:
+      - Z4e0EH9GoAMFq3Q=
+      Vary:
+      - Accept
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - nginx
+      Expires:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"2ab1c8570aa252949526589a4f59788c"
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Wed, 12 Oct 2022 08:17:30 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 554927166d10692a589190ab59950854.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - HEL51-P2
+      X-Amz-Cf-Id:
+      - oR7zpX81-QkFpk1Bv5nManlqcwKe3up88FlXDxHkQ0N5cSTQp0KBEQ==
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 758e663fcf9d00b0-DME
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":12,"results":[{"unique_id":"847f684661dde47ad7a18bfba6597779","date":"2020-07-06
+        03:30:17 +1000","order_id":129281000,"type":"Purchase","detail":"Appgen -
+        App, Saas \u0026 Software Landing Page Template (6 months extended support)","item_id":27152521,"document":"IVIP38802533","price":3.0,"au_gst":null,"eu_vat":null,"us_rwt":null,"us_bwt":null,"amount":-3.0,"site":"themeforest.net","other_party_country":null,"other_party_region":null,"other_party_city":null,"other_party_zipcode":null},{"unique_id":"9c44975e887d0ebeb96fb8dee40cc528","date":"2020-07-06
+        03:30:17 +1000","order_id":129281000,"type":"Purchase","detail":"Appgen -
+        App, Saas \u0026 Software Landing Page Template (6 months included support)","item_id":27152521,"document":"IVIP38802533","price":3.0,"au_gst":null,"eu_vat":null,"us_rwt":null,"us_bwt":null,"amount":-3.0,"site":"themeforest.net","other_party_country":null,"other_party_region":null,"other_party_city":null,"other_party_zipcode":null},{"unique_id":"aeb0ce959af0a720a15c05f083dfe86b","date":"2020-07-06
+        03:30:17 +1000","order_id":129281000,"type":"Purchase","detail":"Appgen -
+        App, Saas \u0026 Software Landing Page Template (Regular License)","item_id":27152521,"document":"IVIP38802533","price":5.0,"au_gst":null,"eu_vat":null,"us_rwt":null,"us_bwt":null,"amount":-5.0,"site":"themeforest.net","other_party_country":null,"other_party_region":null,"other_party_city":null,"other_party_zipcode":null},{"unique_id":"126abcd14e0190d55469cf2fd06be730","date":"2020-07-06
+        03:30:17 +1000","order_id":129281000,"type":"Purchase","detail":"Buyer Fee
+        for Appgen - App, Saas \u0026 Software Landing Page Template","item_id":27152521,"document":"IVBF38550204","price":4.0,"au_gst":null,"eu_vat":null,"us_rwt":null,"us_bwt":null,"amount":-4.0,"site":null,"other_party_country":null,"other_party_region":null,"other_party_city":null,"other_party_zipcode":null},{"unique_id":"d3e7ee3953c0c562b2c6d6cb8f674fb6","date":"2020-07-06
+        03:30:17 +1000","order_id":129281000,"type":"Purchase","detail":"Handling
+        fee for order 129281000","item_id":null,"document":"IVHF22866483","price":2.0,"au_gst":null,"eu_vat":null,"us_rwt":null,"us_bwt":null,"amount":-2.0,"site":null,"other_party_country":null,"other_party_region":null,"other_party_city":null,"other_party_zipcode":null},{"unique_id":"ca24b84941edf011d47740729e62f9ec","date":"2020-07-06
+        03:30:17 +1000","order_id":null,"type":"Deposit","detail":"Deposit via Credit
+        Card","item_id":null,"document":"RCD27837184","price":null,"au_gst":null,"eu_vat":null,"us_rwt":null,"us_bwt":null,"amount":17.0,"site":null,"other_party_country":null,"other_party_region":null,"other_party_city":null,"other_party_zipcode":null},{"unique_id":"45e6fc05732f0d4e0add387f8e5bb1ea","date":"2013-09-01
+        21:34:38 +1000","order_id":null,"type":"Purchase","detail":"The Envato Birthday
+        Bundle is on for 2 Weeks!","item_id":5361538,"document":null,"price":null,"au_gst":null,"eu_vat":null,"us_rwt":null,"us_bwt":null,"amount":-20.0,"site":"graphicriver.net","other_party_country":null,"other_party_region":null,"other_party_city":null,"other_party_zipcode":null},{"unique_id":"63221d4a41f86ab06883bc7ba8845791","date":"2013-09-01
+        21:34:38 +1000","order_id":null,"type":"Deposit","detail":"Expires 01 Sep
+        2014.","item_id":null,"document":"6459720","price":null,"au_gst":null,"eu_vat":null,"us_rwt":null,"us_bwt":null,"amount":20.0,"site":null,"other_party_country":null,"other_party_region":null,"other_party_city":null,"other_party_zipcode":null},{"unique_id":"a93fa81d2be8e5259ab572d2bc020472","date":"2013-08-21
+        14:11:38 +1000","order_id":null,"type":"Credit Expiry","detail":"Remainder
+        forfeited","item_id":null,"document":null,"price":null,"au_gst":null,"eu_vat":null,"us_rwt":null,"us_bwt":null,"amount":-10.0,"site":null,"other_party_country":null,"other_party_region":null,"other_party_city":null,"other_party_zipcode":null},{"unique_id":"c816050271798c99556c4ff21a79bee0","date":"2012-08-21
+        00:57:13 +1000","order_id":null,"type":"Purchase","detail":"Envato Birthday
+        Bundle 2012","item_id":2792744,"document":null,"price":null,"au_gst":null,"eu_vat":null,"us_rwt":null,"us_bwt":null,"amount":-20.0,"site":"themeforest.net","other_party_country":null,"other_party_region":null,"other_party_city":null,"other_party_zipcode":null},{"unique_id":"cdf1814351800de402de97fcbfb3eae2","date":"2012-08-21
+        00:56:52 +1000","order_id":null,"type":"Deposit","detail":"Expires 21 Aug
+        2013.","item_id":null,"document":"3413319","price":null,"au_gst":null,"eu_vat":null,"us_rwt":null,"us_bwt":null,"amount":30.0,"site":null,"other_party_country":null,"other_party_region":null,"other_party_city":null,"other_party_zipcode":null},{"unique_id":"2f680e1697d46d954e23671f5b093ade","date":"2011-04-17
+        00:40:32 +1000","order_id":null,"type":"Agreement Change","detail":"Enrolled
+        in exclusive author program","item_id":null,"document":null,"price":null,"au_gst":null,"eu_vat":null,"us_rwt":null,"us_bwt":null,"amount":null,"site":null,"other_party_country":null,"other_party_region":null,"other_party_city":null,"other_party_zipcode":null}]}'
+  recorded_at: Wed, 12 Oct 2022 08:17:30 GMT
+recorded_with: VCR 6.1.0

@@ -1,0 +1,87 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.envato.com/v3/market/buyer/list-purchases?details=false&filter_by=wordpress-themes&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 13 Oct 2022 11:35:19 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '44'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - f5444a08-a008-454f-af3c-f3884b8c538c
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime:
+      - '0.021878'
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      X-Download-Options:
+      - noopen
+      X-Request-Id:
+      - 7597c564b8449d8d-DME
+      X-Amz-Apigw-Id:
+      - Z8OumEakIAMFR3w=
+      Vary:
+      - Accept
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - nginx
+      Expires:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"3438c5b0da51b073b4fa87b68d35e3b9"
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Thu, 13 Oct 2022 11:35:18 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 2a4d61538fbb384d64746e2642e5e74e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - HEL50-C2
+      X-Amz-Cf-Id:
+      - 0Iu5sKFm4URZqzXuZ-J-MHXTV6nZIIoTZgOGsOOir8qUdrtECldvNg==
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7597c564b8449d8d-DME
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":0,"results":[]}'
+  recorded_at: Thu, 13 Oct 2022 11:35:19 GMT
+recorded_with: VCR 6.1.0

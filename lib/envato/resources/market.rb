@@ -40,6 +40,7 @@ module Envato
       categories(site: "3docean")
     end
 
+    # TODO: Features.new
     def features(site:)
       Object.new get("v1/market/features:#{site}.json").body
     end
@@ -72,8 +73,47 @@ module Envato
       features(site: "3docean")
     end
 
+    def popular_items(site:)
+      Object.new get("v1/market/popular:#{site}.json").body
+    end
+
+    def popular_items_themeforest
+      popular_items(site: "themeforest")
+    end
+
+    def popular_items_photodune
+      popular_items(site: "photodune")
+    end
+
+    def popular_items_codecanyon
+      popular_items(site: "codecanyon")
+    end
+
+    def popular_items_videohive
+      popular_items(site: "videohive")
+    end
+
+    def popular_items_audiojungle
+      popular_items(site: "audiojungle")
+    end
+
+    def popular_items_graphicriver
+      popular_items(site: "graphicriver")
+    end
+
+    def popular_items_3docean
+      popular_items(site: "3docean")
+    end
+
+    # TODO: add themeforest, graphicriver, etc.
     def new_files(site:, category:)
-      Object.new get("v1/market/new-files:#{site},#{category}.json")
+      resp = get("v1/market/new-files:#{site},#{category}.json")
+      Collection.from_response(resp, key: "new-files", type: Item)
+    end
+
+    # TODO: add themeforest, etc.
+    def new_files_graphicriver(category:)
+      new_files(site: "graphicriver", category: category)
     end
 
     def new_files_from_user(username:, site:)

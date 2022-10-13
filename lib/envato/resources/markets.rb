@@ -34,12 +34,9 @@ module Envato
       number_of_files(site: "3docean")
     end
 
-    def total_users
-      Object.new get("v1/market/total-users.json")
-    end
-
     def total_items
-      Object.new get("v1/market/total-items.json")
+      Object.new get("v1/market/total-items.json").body
     end
+    alias total total_items
   end
 end

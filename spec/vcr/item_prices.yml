@@ -1,0 +1,86 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.envato.com/v1/market/item-prices:5556590.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Oct 2022 19:02:30 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '95'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - 8b2a7eb6-d945-46b2-9eaa-674b08928fe1
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime:
+      - '0.014165'
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      X-Download-Options:
+      - noopen
+      X-Request-Id:
+      - 7589d9b8497b8f19-DME
+      X-Amz-Apigw-Id:
+      - Z2qXFGIZoAMFStQ=
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - nginx
+      Expires:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"423d1e899ac65987b1d81995ca9e6956"
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Tue, 11 Oct 2022 19:02:30 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 0b9e85cfe8fe19b385db56d32b4ce802.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - FRA2-C1
+      X-Amz-Cf-Id:
+      - pyMls35BA7pb9wOycWi-zPgS9_8gP61D5-T94Bne8BcI_g9IbO3ZoA==
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7589d9b8497b8f19-DME
+    body:
+      encoding: ASCII-8BIT
+      string: '{"item-prices":[{"licence":"Regular License","price":"39.00"},{"licence":"Extended
+        License","price":"2950.00"}]}'
+  recorded_at: Tue, 11 Oct 2022 19:02:30 GMT
+recorded_with: VCR 6.1.0

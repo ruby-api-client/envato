@@ -8,15 +8,13 @@ module Envato
     end
     alias like more_like_this
 
-    # TODO: not tested yet
     def comments(item_id:, page: 1, page_size: 10)
       resp = get("v1/discovery/search/search/comment?item_id=#{item_id}&page=#{page}&page_size=#{page_size}")
       Collection.from_response(resp, key: "matches", type: Comment)
     end
 
-    # TODO: not tested yet
     def item
-      resp = get("v1/discovery/search/search/item").body
+      resp = get("v1/discovery/search/search/item")
       Collection.from_response(resp, key: "matches", type: Item)
     end
   end
