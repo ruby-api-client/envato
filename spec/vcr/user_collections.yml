@@ -1,0 +1,90 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.envato.com/v3/market/user/collections
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Oct 2022 17:45:37 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '280'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - 50d5382b-a988-4fa9-8e3c-ad8101d1635e
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime:
+      - '0.018120'
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      X-Download-Options:
+      - noopen
+      X-Request-Id:
+      - 758969165f3400b8-DME
+      X-Amz-Apigw-Id:
+      - Z2fGMG-XIAMFh4g=
+      Vary:
+      - Accept
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - nginx
+      Expires:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"1031e39c79cdd57560223d3dbf0c5ad2"
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Tue, 11 Oct 2022 17:45:37 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 b6d1611761652d7a383651f2bf480596.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - FRA2-C1
+      X-Amz-Cf-Id:
+      - g47Xx7CV5gF4Kc9-ple2sBwaL01ndjaf8pDuELo0E_fkQvPvMb5Bgw==
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 758969165f3400b8-DME
+    body:
+      encoding: ASCII-8BIT
+      string: '{"collections":[{"id":6917126,"name":"AMP Pages","description":null,"private":true,"item_count":1,"special_role":null,"image":"default-collection.png"},{"id":7201994,"name":"Dashboards","description":"","private":true,"item_count":1,"special_role":null,"image":"default-collection.png"},{"id":4753344,"name":"My
+        Favorites.","description":"Items you marked as your favorites.","private":true,"item_count":25,"special_role":"favorite","image":"default-collection.png"},{"id":706951,"name":"My
+        Private Bookmarks","description":null,"private":true,"item_count":7,"special_role":null,"image":"default-collection.png"},{"id":7201768,"name":"Shopify
+        Front","description":null,"private":true,"item_count":1,"special_role":null,"image":"default-collection.png"}]}'
+  recorded_at: Tue, 11 Oct 2022 17:45:37 GMT
+recorded_with: VCR 6.1.0

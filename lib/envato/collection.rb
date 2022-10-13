@@ -2,6 +2,9 @@
 
 module Envato
   class Collection
+    # TODO: links: { next_page_url, prev_page_url, first_page_url, last_page_url }
+    # TODO: total_hits:
+    # TODO: took:
     attr_reader :data, :items, :total
 
     def self.from_response(response, key:, type:)

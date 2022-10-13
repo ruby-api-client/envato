@@ -1,0 +1,115 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.envato.com/v1/market/new-files:graphicriver,graphics.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Oct 2022 22:09:26 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1969'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - dc99f337-a7cf-4259-bc05-08aced4c16c9
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime:
+      - '0.012584'
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      X-Download-Options:
+      - noopen
+      X-Request-Id:
+      - 758aeb8c2e921683-DME
+      X-Amz-Apigw-Id:
+      - Z3FvlH6RIAMFqYA=
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - nginx
+      Expires:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"629a35937687e4642700888127417a11"
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Tue, 11 Oct 2022 22:09:26 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 033ed92c09627372dcaf2c27f57f2f76.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - HEL50-C2
+      X-Amz-Cf-Id:
+      - ClUkEh92htn6vSB4Up5iJ8iwVi4Q2bYa4wxMx2ywPkRVWDVMhz4rSw==
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 758aeb8c2e921683-DME
+    body:
+      encoding: ASCII-8BIT
+      string: '{"new-files":[{"id":"40026352","item":"Magazine / Catalog Brochure
+        Mockup Vol2","url":"https://graphicriver.net/item/magazine-catalog-brochure-mockup-vol2/40026352","user":"Pixel_corner","thumbnail":"https://s3.envato.com/files/408782896/Thumbnail.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"9.00"},{"id":"40037731","item":"3D
+        Senior Man Sitting Comfortably with Arms Crossed","url":"https://graphicriver.net/item/3d-senior-man-sitting-comfortably-with-arms-crossed/40037731","user":"3dmask","thumbnail":"https://s3.envato.com/files/408862781/thumbnail.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"5.00"},{"id":"40037726","item":"3D
+        Senior Man Flexing Arm Muscles","url":"https://graphicriver.net/item/3d-senior-man-flexing-arm-muscles/40037726","user":"3dmask","thumbnail":"https://s3.envato.com/files/408862719/thumbnail.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"5.00"},{"id":"40025685","item":"Square
+        Magazine Mockup","url":"https://graphicriver.net/item/square-magazine-mockup/40025685","user":"AkmalStudio","thumbnail":"https://s3.envato.com/files/408778124/Thumbnail.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"6.00"},{"id":"40024926","item":"Book
+        Mockup 007","url":"https://graphicriver.net/item/book-mockup-007/40024926","user":"traint","thumbnail":"https://s3.envato.com/files/408772526/80x80.png","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"6.00"},{"id":"40023596","item":"Hand
+        Painted Watercolor Viola Cornuta Clip Art","url":"https://graphicriver.net/item/hand-painted-watercolor-viola-cornuta-clip-art/40023596","user":"Augtapir","thumbnail":"https://s3.envato.com/files/408762465/31i-Thumbnail.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"6.00"},{"id":"40022582","item":"Spiral
+        Desk Calendar Mockup","url":"https://graphicriver.net/item/spiral-desk-calendar-mockup/40022582","user":"Freesunka","thumbnail":"https://s3.envato.com/files/408753965/Thumbnail.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"7.00"},{"id":"40020985","item":"Laptop
+        Pro Screen Mockup","url":"https://graphicriver.net/item/laptop-pro-screen-mockup/40020985","user":"MoGraphic2","thumbnail":"https://s3.envato.com/files/408743372/Thumbnail.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"6.00"},{"id":"40020404","item":"Phone
+        14 Pro App Promo Screen Mockup PSD Template","url":"https://graphicriver.net/item/phone-14-pro-app-promo-screen-mockup-psd-template/40020404","user":"MotionFox","thumbnail":"https://s3.envato.com/files/408738729/Phone%2014%20Pro%20Thumbnail.png","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"12.00"},{"id":"40020259","item":"Business
+        Card Mockup","url":"https://graphicriver.net/item/business-card-mockup/40020259","user":"BerkahGraphic","thumbnail":"https://s3.envato.com/files/408737806/Thumbnail.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"7.00"},{"id":"40018973","item":"Phone
+        14 Pro Max Mockup","url":"https://graphicriver.net/item/phone-14-pro-max-mockup/40018973","user":"compositingstudio","thumbnail":"https://s3.envato.com/files/408728474/Thumbnail.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"5.00"},{"id":"40015846","item":"3D
+        Illustration of Time to Invest","url":"https://graphicriver.net/item/3d-illustration-of-time-to-invest/40015846","user":"UjungNegri","thumbnail":"https://s3.envato.com/files/408706253/Thumbnail.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"9.00"},{"id":"40015800","item":"Roll
+        Up Banner Mockup 006","url":"https://graphicriver.net/item/roll-up-banner-mockup-006/40015800","user":"traint","thumbnail":"https://s3.envato.com/files/408705926/80x80.png","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"6.00"},{"id":"40014896","item":"Pouch
+        Sachet Mockup","url":"https://graphicriver.net/item/pouch-sachet-mockup/40014896","user":"AkmalStudio","thumbnail":"https://s3.envato.com/files/408699402/Thumbnail.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"8.00"},{"id":"40012238","item":"iMac
+        Screen Presentation Mockup","url":"https://graphicriver.net/item/imac-screen-presentation-mockup/40012238","user":"Tokobeta","thumbnail":"https://s3.envato.com/files/408677683/Thumbnail.png","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"7.00"},{"id":"40010079","item":"Goat
+        in Sunglasses Sketch Raster Illustration","url":"https://graphicriver.net/item/goat-in-sunglasses-sketch-raster-illustration/40010079","user":"AlexanderPokusay","thumbnail":"https://s3.envato.com/files/408663808/thumbnail.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"9.00"},{"id":"40006379","item":"15
+        Elegant Bouquets","url":"https://graphicriver.net/item/15-elegant-bouquets/40006379","user":"knopazyzy","thumbnail":"https://s3.envato.com/files/408637451/80x802.png","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"9.00"},{"id":"40003427","item":"30
+        3D SEO & Marketing Icon","url":"https://graphicriver.net/item/30-3d-seo-marketing-icon/40003427","user":"Krafted","thumbnail":"https://s3.envato.com/files/408615878/Thumbnail.png","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"26.00"},{"id":"40001074","item":"30
+        3D eCommerce Icon Set","url":"https://graphicriver.net/item/30-3d-ecommerce-icon-set/40001074","user":"Krafted","thumbnail":"https://s3.envato.com/files/408599472/Thumbnail.png","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"26.00"},{"id":"39996202","item":"Detergent
+        Spray Bottle Mockup","url":"https://graphicriver.net/item/detergent-spray-bottle-mockup/39996202","user":"Fusionhorn","thumbnail":"https://s3.envato.com/files/408563448/detergent_spray_mockup_thumb.png","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"7.00"},{"id":"39994434","item":"TABLET
+        SCREEN WIHT PHONE MOCKUP","url":"https://graphicriver.net/item/tablet-screen-wiht-phone-mockup/39994434","user":"MoGraphic2","thumbnail":"https://s3.envato.com/files/408551951/Thumbnail.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"6.00"},{"id":"39991643","item":"3d
+        Online Shopping Icon Pack","url":"https://graphicriver.net/item/3d-online-shopping-icon-pack/39991643","user":"deviap366","thumbnail":"https://s3.envato.com/files/408530807/thumb.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"15.00"},{"id":"39991204","item":"Paint
+        Grunge Texture Backgrounds","url":"https://graphicriver.net/item/paint-grunge-texture-backgrounds/39991204","user":"themefire_pro","thumbnail":"https://s3.envato.com/files/408527563/thumbnail.png","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"11.00"},{"id":"39986829","item":"Side
+        Gusset Pouch Coffee Mockups","url":"https://graphicriver.net/item/side-gusset-pouch-coffee-mockups/39986829","user":"Oleg_Design","thumbnail":"https://s3.envato.com/files/408495912/Thumbnail.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"14.00"},{"id":"39985000","item":"Jewerly
+        Box Mockup","url":"https://graphicriver.net/item/jewerly-box-mockup/39985000","user":"gungunawan_","thumbnail":"https://s3.envato.com/files/408482442/thumb.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"4.00"},{"id":"39984967","item":"Gift
+        Box Mockup","url":"https://graphicriver.net/item/gift-box-mockup/39984967","user":"gungunawan_","thumbnail":"https://s3.envato.com/files/408482176/thumb.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"4.00"},{"id":"39984919","item":"Gift
+        Box Mockup","url":"https://graphicriver.net/item/gift-box-mockup/39984919","user":"gungunawan_","thumbnail":"https://s3.envato.com/files/408481811/thumb.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"4.00"},{"id":"39984814","item":"Open
+        Cardboard Box Mockup","url":"https://graphicriver.net/item/open-cardboard-box-mockup/39984814","user":"gungunawan_","thumbnail":"https://s3.envato.com/files/408481049/thumb.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"4.00"},{"id":"39984769","item":"Closed
+        Cardboard Box Mockup","url":"https://graphicriver.net/item/closed-cardboard-box-mockup/39984769","user":"gungunawan_","thumbnail":"https://s3.envato.com/files/408480620/thumb.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"4.00"},{"id":"39984137","item":"Calendar
+        with Checklist Date Schedule 3d Icon","url":"https://graphicriver.net/item/calendar-with-checklist-date-schedule-3d-icon/39984137","user":"klyaksun","thumbnail":"https://s3.envato.com/files/408475960/thumbnail.jpg","sales":"0","rating":"0.0","rating_decimal":"0.00","cost":"9.00"}]}'
+  recorded_at: Tue, 11 Oct 2022 22:09:26 GMT
+recorded_with: VCR 6.1.0

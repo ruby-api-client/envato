@@ -1,0 +1,98 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.envato.com/v1/market/user-badges:collis.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 12 Oct 2022 08:26:49 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1280'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - 66d330e3-9939-462f-8b63-0f8c296d8dc6
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime:
+      - '0.010309'
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      X-Download-Options:
+      - noopen
+      X-Request-Id:
+      - 758e73ea8b850004-DME
+      X-Amz-Apigw-Id:
+      - Z4gLiE-xIAMFnSA=
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - nginx
+      Expires:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"b7f4a7c44ebe50c31ffc313a2fbea06c"
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Wed, 12 Oct 2022 08:26:49 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 456733511c088f8435091e663b2c5430.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - FRA56-P3
+      X-Amz-Cf-Id:
+      - l79MGmMzLY6IOjQnxAt5LMW_eF7iGtZsx3jSWZ4T4zsgVgbDyGANTA==
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 758e73ea8b850004-DME
+    body:
+      encoding: ASCII-8BIT
+      string: '{"user-badges":[{"name":"veteran_level_16","label":"16 Years of Membership","image":"https://public-assets.envato-static.com/assets/badges/veteran_level_16-5e18472a196cb77a5c8593f671151cf556e2dddd1364f1f48065246be5c970f5.svg"},{"name":"affiliate_level_2","label":"Affiliate
+        Level 2","image":"https://public-assets.envato-static.com/assets/badges/affiliate_level_2-75a92b0c30ab087303a378e5a1a7ccdc31c0db7936c6f0968b130e3547b94a58.svg"},{"name":"country_au","label":"Australia","image":"https://public-assets.envato-static.com/assets/badges/country_au-49291d873cff018fe6e0b2c6ed6a529b566783dff04b1df03bc4c5503ac5e171.svg"},{"name":"author_level_6","label":"Author
+        Level 6","image":"https://public-assets.envato-static.com/assets/badges/author_level_6-92e108009069ae7fb9a29106deb4300b6cdcde236d5d7688edcc2bf1b4faf4b4.svg"},{"name":"had_bundled_file","label":"Bundle
+        Boss","image":"https://public-assets.envato-static.com/assets/badges/had_bundled_file-1ac661ca95027cd5feb5417971d8383f64b88efcb3b249693a912cb7154a6129.svg"},{"name":"collector_level_6","label":"Collector
+        Level 6","image":"https://public-assets.envato-static.com/assets/badges/collector_level_6-0df2f87ca33d47bcc53704cdcfe10705968c942124feaa982f27f350c8c77ca3.svg"},{"name":"envato_team","label":"Envato
+        Team","image":"https://public-assets.envato-static.com/assets/badges/envato_team-ac0549cdb727447258a564506be15a75eb49954622eadf1e839e542bb86662eb.svg"},{"name":"contributed_a_tutorial","label":"Envato
+        Tuts+ Instructor","image":"https://public-assets.envato-static.com/assets/badges/contributed_a_tutorial-b4428cbb425dc9061039ea98a2846c15fd2e9a349545045194649699f99a4860.svg"},{"name":"exclusive","label":"Exclusive
+        Author","image":"https://public-assets.envato-static.com/assets/badges/exclusive-c46b38381f19512d29603bebe1a1fae3a44a4147dddef99185ee228667c17a66.svg"},{"name":"was_featured","label":"Featured
+        Author","image":"https://public-assets.envato-static.com/assets/badges/was_featured-50e7377326c373c575079cc4a7689e85cc17e5fdb79871eba765de1ad37c8dab.svg"},{"name":"had_featured_item","label":"Featured
+        Item","image":"https://public-assets.envato-static.com/assets/badges/had_featured_item-7e2ccab79c4585f65dfd61918aad8ff00cde789a34ec84e4fc8cf5b3fe511a2e.svg"},{"name":"attended_community_meetup","label":"Meetup
+        Participant","image":"https://public-assets.envato-static.com/assets/badges/attended_community_meetup-8068ccbc75ab771905405ed05d4df0ef4cfb7028924121658a89063718c8f201.svg"},{"name":"one_billion_milestone","label":"Milestone
+        Member","image":"https://public-assets.envato-static.com/assets/badges/one_billion_milestone-6bafd9c1c66e21701fa25158e42e4f28a3ca101552f952c9680b10822f2c147e.svg"},{"name":"featured_in_podcast","label":"Podster","image":"https://public-assets.envato-static.com/assets/badges/featured_in_podcast-b9abe7288e98aea35b9be94dffc8e207f973bc155434a9cc9a85454487139822.svg"},{"name":"was_top_monthly_author","label":"Top
+        Monthly Author","image":"https://public-assets.envato-static.com/assets/badges/was_top_monthly_author-678e300db830904b47f2521dde38957779c4efbadc82d104fc37881d4ebf9786.svg"},{"name":"was_weekly_top_seller","label":"Weekly
+        Top Seller","image":"https://public-assets.envato-static.com/assets/badges/was_weekly_top_seller-dde99217d9005ef700a7a22d3860f45ab4a7400515ceced979050ea19566f191.svg"},{"name":"contributed_blog_post","label":"Wordsmith","image":"https://public-assets.envato-static.com/assets/badges/contributed_blog_post-559bd097b02182c431cf19666e3f3aa65da4b3dd20c2e8094df8a6a85f32db53.svg"}]}'
+  recorded_at: Wed, 12 Oct 2022 08:26:49 GMT
+recorded_with: VCR 6.1.0

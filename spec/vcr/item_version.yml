@@ -1,0 +1,87 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.envato.com/v3/market/catalog/item-version?id=5556590
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Oct 2022 18:49:33 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '63'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - 8082e543-48cf-4d7c-939b-1a6aade80d2a
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime:
+      - '0.008549'
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      X-Download-Options:
+      - noopen
+      X-Request-Id:
+      - 7589c6be39d73a55-DME
+      X-Amz-Apigw-Id:
+      - Z2odmHmcoAMFgtQ=
+      Vary:
+      - Accept
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - nginx
+      Expires:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"fb3ebaa1ffc2591d44a84f10ff5393e3"
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Tue, 11 Oct 2022 18:49:33 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 4737976a27f5e96a307bca1f8a140466.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - HEL51-P2
+      X-Amz-Cf-Id:
+      - jVi7-9gpkbDOZovF6mRjxT-TTFDdz4almwFrg-5d39YOJrSGbPzPOw==
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7589c6be39d73a55-DME
+    body:
+      encoding: ASCII-8BIT
+      string: '{"wordpress_theme_latest_version":"11.0.0"}'
+  recorded_at: Tue, 11 Oct 2022 18:49:33 GMT
+recorded_with: VCR 6.1.0

@@ -1,0 +1,87 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.envato.com/v3/market/user/bookmarks
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Oct 2022 21:21:03 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '523'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - 7d081f26-8e81-439b-85d8-f2d774071303
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime:
+      - '0.094356'
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      X-Download-Options:
+      - noopen
+      X-Request-Id:
+      - 758aa4a8988216bf-DME
+      X-Amz-Apigw-Id:
+      - Z2-p4HhDIAMFWLw=
+      Vary:
+      - Accept
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - nginx
+      Expires:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"e2f6cca18db456fdf6aa1202b5f9ae90"
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Tue, 11 Oct 2022 21:21:03 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 c379418fd6100691807f32f274ebe9ce.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - FRA2-C1
+      X-Amz-Cf-Id:
+      - NHBKVSMYNy90VqmmHdVBFNrzyH2tTyhBqOAGqSv32wmLQ3lLlev0-g==
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 758aa4a8988216bf-DME
+    body:
+      encoding: ASCII-8BIT
+      string: '{"bookmarks":[{"id":51165728,"item_id":20067217,"collection_id":6917126},{"id":55189448,"item_id":20262330,"collection_id":7201994},{"id":68229162,"item_id":2871437,"collection_id":4753344},{"id":68229159,"item_id":3114354,"collection_id":4753344},{"id":73242703,"item_id":3525764,"collection_id":4753344},{"id":36080084,"item_id":11890210,"collection_id":4753344},{"id":36080108,"item_id":15190981,"collection_id":4753344},{"id":36080030,"item_id":15380226,"collection_id":4753344},{"id":51165721,"item_id":20067217,"collection_id":4753344},{"id":68229101,"item_id":22848477,"collection_id":4753344},{"id":73024798,"item_id":24030418,"collection_id":4753344},{"id":73024801,"item_id":24291918,"collection_id":4753344},{"id":70315296,"item_id":24632692,"collection_id":4753344},{"id":73106581,"item_id":25542839,"collection_id":4753344},{"id":73106806,"item_id":26167207,"collection_id":4753344},{"id":73106781,"item_id":26292187,"collection_id":4753344},{"id":71818071,"item_id":26871435,"collection_id":4753344},{"id":70632683,"item_id":26988802,"collection_id":4753344},{"id":70632687,"item_id":27346574,"collection_id":4753344},{"id":73024809,"item_id":27412116,"collection_id":4753344},{"id":73024806,"item_id":27596563,"collection_id":4753344},{"id":73024805,"item_id":27873473,"collection_id":4753344},{"id":73024810,"item_id":28061946,"collection_id":4753344},{"id":73024800,"item_id":28451453,"collection_id":4753344},{"id":73024807,"item_id":28796118,"collection_id":4753344},{"id":73024811,"item_id":29362284,"collection_id":4753344},{"id":78406313,"item_id":32949822,"collection_id":4753344},{"id":78406311,"item_id":33272512,"collection_id":4753344},{"id":6552137,"item_id":387244,"collection_id":706951},{"id":4774202,"item_id":467167,"collection_id":706951},{"id":9103119,"item_id":2199794,"collection_id":706951},{"id":9127674,"item_id":3050124,"collection_id":706951},{"id":68229161,"item_id":3114354,"collection_id":706951},{"id":9140257,"item_id":3411959,"collection_id":706951},{"id":9103142,"item_id":4367571,"collection_id":706951},{"id":9178293,"item_id":4524003,"collection_id":706951},{"id":55186364,"item_id":21788834,"collection_id":7201768}]}'
+  recorded_at: Tue, 11 Oct 2022 21:21:03 GMT
+recorded_with: VCR 6.1.0

@@ -1,0 +1,86 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.envato.com/v1/market/private/user/account.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Oct 2022 17:28:28 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '168'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - b7d4263a-d695-4e45-9743-9dc048fa7d28
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime:
+      - '0.011527'
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      X-Download-Options:
+      - noopen
+      X-Request-Id:
+      - 75894ffa2cac7b1b-DME
+      X-Amz-Apigw-Id:
+      - Z2clgE_EoAMF8vw=
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - nginx
+      Expires:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"df34519a015b73f3994fbd8c73a47741"
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Tue, 11 Oct 2022 17:28:28 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 2db3123c4cefd91554a1875a9a4be618.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - FJR50-C1
+      X-Amz-Cf-Id:
+      - YMVRX97xPcHhYcdlgnBq3fxbHXF_QRzClXVwmQGJOn20j4_O2NQHpA==
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 75894ffa2cac7b1b-DME
+    body:
+      encoding: ASCII-8BIT
+      string: '{"account":{"image":"https://s3.envato.com/files/1234567/avatar.png","firstname":"Ilya","surname":"Brin","available_earnings":"0.00","total_deposits":"0.00","balance":"0.00","country":"United
+        States"}}'
+  recorded_at: Tue, 11 Oct 2022 17:28:28 GMT
+recorded_with: VCR 6.1.0

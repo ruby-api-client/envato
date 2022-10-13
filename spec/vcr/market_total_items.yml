@@ -1,0 +1,85 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.envato.com/v1/market/total-items.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Oct 2022 22:21:52 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '52'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - 58b7df9a-b0ea-48d7-83a3-3d018a52b637
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime:
+      - '0.010360'
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      X-Download-Options:
+      - noopen
+      X-Request-Id:
+      - 758afdbf6ec79d45-DME
+      X-Amz-Apigw-Id:
+      - Z3HkBFIfIAMFWyg=
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - nginx
+      Expires:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"158f10203ce92e173c4fe72d0f21d36a"
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Tue, 11 Oct 2022 22:21:52 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 f75621cd6e47ae7d0a4d07cd1877339c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - TXL50-P3
+      X-Amz-Cf-Id:
+      - yAuOiaU5CT8nYV_ivKpeJ-mmC57M3rFzIIVhOp3zYUAzD8IWFU3IUw==
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 758afdbf6ec79d45-DME
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total-items":{"total_items":"12743594"}}'
+  recorded_at: Tue, 11 Oct 2022 22:21:51 GMT
+recorded_with: VCR 6.1.0
