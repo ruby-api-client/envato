@@ -35,7 +35,7 @@ jobs:
       with:
         github-token: ${{ secrets.github_token }}
         flag-name: run-${{ matrix.ruby-version }}
-        path-to-lcov: ./coverage/lcov.info
+        path-to-lcov: ./coverage/lcov/envato.lcov
         parallel: true
 
   coverage:
