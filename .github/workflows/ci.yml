@@ -6,7 +6,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, macos-latest]
+        os: [ubuntu-latest, macos-latest, windows-2019, windows-latest]
         ruby: ['2.6', '2.7', '3.0', '3.1', head, truffleruby, truffleruby-head]
     runs-on: ${{ matrix.os }}
     continue-on-error: true
@@ -15,7 +15,6 @@ jobs:
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: ${{ matrix.ruby }}
-        # bundler-cache: true
 
     - name: Get the newest rubygems version to rid ourselves of warnings
       run: gem update --system --no-document
