@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    envato (0.0.0)
+    envato (1.0.0)
       addressable (~> 2.3, >= 2.3.7)
       faraday (~> 1.7)
 
@@ -70,6 +70,7 @@ GEM
 
 PLATFORMS
   universal-darwin-21
+  x86_64-darwin-17
 
 DEPENDENCIES
   bundler
@@ -77,8 +78,8 @@ DEPENDENCIES
   rake (>= 10)
   rspec (>= 3.0)
   simplecov (>= 0.9)
-  vcr
-  webmock
+  vcr (~> 6.1)
+  webmock (~> 3.18, >= 3.18.1)
 
 BUNDLED WITH
    2.3.22
