@@ -22,5 +22,5 @@ RSpec.describe Envato::Client do
 end
 
 RSpec.describe "#VERSION" do
-  it { expect(Envato::VERSION).to eq "1.0.0" }
+  it { expect(Envato::VERSION).to eq "1.0.1" }
 end
